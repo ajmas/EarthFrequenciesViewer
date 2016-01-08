@@ -243,7 +243,7 @@ var SpectrumChart = (function(containerElementId, bands) {
 			boundingBox.width = $(svgRef).width();
 			boundingBox.height = $(svgRef).height();
 
-			$(svgRef).html('<svg width="' + $(svgRef).width() + 'px" height="' + $(svgRef).height() + 'px"/>');
+			$(svgRef).html('<svg width="' + $(svgRef).width() + 'px" height="' + $(svgRef).height() + 'px" shape-rendering="crispEdges"/>');
 			svgRef = svgRef + ' svg';
 		}
 

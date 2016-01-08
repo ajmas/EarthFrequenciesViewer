@@ -17,7 +17,7 @@ var Spectrum = (function (elementId, frequencyRange) {
         containerHeight = element.height();
 
 
-        html = '<svg style="width: ' + element.width() + 'px; height: ' + element.height() + 'px; border: solid 1px black"/>';
+        html = '<svg style="width: ' + element.width() + 'px; height: ' + element.height() + 'px; border: solid 1px black" shape-rendering="crispEdges"/>';
 
         element.append(html);
 
