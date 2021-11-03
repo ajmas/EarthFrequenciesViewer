@@ -1,18 +1,24 @@
-Earth Frequencies Viewer
-========================
+# earth-frequencies-viewer
 
-This project provides tools for viewing radio frequency allocation data and 
-other various information regarding the radio spectrum.
+## Project setup
+```
+npm install
+```
 
-The data used by this projected is taken from http://github.com/ajmas/EarthFrequencies
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-Given that the data is provided by volunteers who have done their best to convert the
-data from official sources, into computer parseable form, there may be errors in the
-data. For this reason use this as a guide or starting point, but follow the official
-documentation for your region, for anything that may have legal or commercial
-implications.
+### Compiles and minifies for production
+```
+npm run build
+```
 
-License
--------
+### Lints and fixes files
+```
+npm run lint
+```
 
-Licensed under the GPL
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
